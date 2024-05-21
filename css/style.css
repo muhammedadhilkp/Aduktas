@@ -96,16 +96,21 @@ header ul li a.button:last-child {
 }
 #spotlight div.top h3 {
     font-size: 58px;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
     margin: 0 auto;
     color:  red;
 }
 #spotlight div.top p {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: #254136;
     max-width: 455px;
     margin: 30px auto;
     text-transform: capitalize;
+}
+#spotlight div.top span {
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
 }
