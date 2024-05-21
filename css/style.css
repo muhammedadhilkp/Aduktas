@@ -1,0 +1,111 @@
+ul,ol {
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+.wrapper {
+    width: 85%;
+    padding: 0 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+header {
+    height: 100px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0cc000;
+}
+header div.left {
+    
+}
+header div.left h1 {
+    width:45px;
+    background: #25dddd;
+    padding: 8px;
+    border-radius: 50%;
+}
+header div.left h1 a {
+    width: 100%;
+    display: block;
+}
+header div.left h1 a img {
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+header ul {
+    display: flex;
+
+}
+header ul li {
+    margin-right: 40px;
+    
+}
+header ul li:last-child {
+    margin-right: 0;
+}
+header ul li a {
+    color: #254136;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+
+header ul li a:hover {
+    color: #fab6b5;
+    border-bottom: 1px solid #fdcbca ;
+}
+header ul li a.button {
+    padding: 10px 18px ;
+    background-color: #02302e;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+header ul li a.button:last-child {
+    margin-right: 0;
+}
+#spotlight {
+    padding: 120px 0;
+    background: #0cc000;
+    height: calc( 100vh - 320px );
+}
+#spotlight div.top {
+    text-align: center;
+}
+#spotlight div.top h1 {
+    font-size: 58px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color:  red;
+}
+#spotlight div.top h3 {
+    font-size: 58px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color:  red;
+}
+#spotlight div.top p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #254136;
+    max-width: 455px;
+    margin: 30px auto;
+    text-transform: capitalize;
+}
